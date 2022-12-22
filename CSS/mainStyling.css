@@ -1,0 +1,59 @@
+/* start Landing Section */
+.landing {
+  background-image: url(../Media/Pics/Landing.jpg);
+  background-size: cover;
+  height: calc(100vh - 64px);
+  position: relative;
+}
+.landing .intro-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.landing .intro-text h1 {
+  margin: 0;
+  color: var(--mainColor);
+  font-weight: bold;
+  font-size: 50px;
+}
+.landing .intro-text p {
+  font-size: 20px;
+  line-height: 1.8;
+  width: 320px;
+  max-width: 100%;
+}
+/* end Landing section */
+/* start feature section */
+.features {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f6f6f6;
+}
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.features .feet {
+  padding: 20px;
+  text-align: center;
+}
+.features .feet i {
+  color: var(--mainColor);
+}
+.features .feet h3 {
+  font-weight: 800;
+  margin: 30px 0;
+}
+.features .feet p {
+  line-height: 1.8;
+  color: #777;
+  font-size: 17px;
+}
+/* end feature section */

@@ -1,0 +1,39 @@
+/* start variables */
+:root {
+  --mainColor: #10cab7;
+  --secondColor: #2c4755;
+}
+/* end variables */
+/* start global rules */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
